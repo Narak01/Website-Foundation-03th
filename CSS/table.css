@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 90vh;
+}
+table,
+th,
+td {
+  border: solid 2px lightgrey;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+table {
+  width: 50%;
+  margin: auto;
+  border-radius: 50px;
+  border-radius: 10px;
+}
+th {
+  background-color: pink;
+}
+
+tr:nth-last-of-type(odd) {
+  background-color: lightskyblue;
+}

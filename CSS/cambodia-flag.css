@@ -1,0 +1,20 @@
+section{
+    width:80vw;
+    margin: auto;
+}
+.conatiner-1, .conatiner-3{
+    background-color: #000084;
+    width: 80vw;
+    height: 200px;
+}
+.conatiner-2{
+    background-color: red;
+    width: 80vw;
+    height: 300px;
+    display: flex;
+}
+img{
+    display: block;
+    margin: auto;
+    align-items: center;
+}

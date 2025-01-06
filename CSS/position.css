@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(166, 166, 166);
+}
+main{
+    /* display: flex; */
+    /* gap: 10px; */
+    background-color: aqua;
+    width: 80%;
+    height: 6000px;
+    position: static;
+    border-radius: 10px;
+
+}
+.box1, .box2, .box3, .box4{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box1{
+    background-color: lightblue;
+    /* position: fixed;
+    right: 80px;
+    z-index: -1; */
+}
+.box2{
+    background-color: lightgreen;
+    /* position: absolute;
+    right: 400px; */
+}
+.box3{
+    background-color: lightpink;
+    /* position: sticky;
+    top: 10px; */
+}
+.box4{
+    background-color: lightseagreen;
+    /* position: fixed;
+    right: 700px;
+    top: 50px; */
+    position: sticky;
+    top: 20px;
+}
